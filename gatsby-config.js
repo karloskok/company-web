@@ -24,60 +24,61 @@ module.exports = {
                 disabledFeatures: [`shorthands`, `cloning`],
             },
         },
-        {
-            resolve: "gatsby-plugin-feed", // todo : ovo pogledat
-            options: {
-                query: `
-                  {
-                    site {
-                      siteMetadata {
-                        title
-                        description
-                        siteUrl
-                        site_url: siteUrl
-                      }
-                    }
-                  }
-                `,
-                feeds: [
-                    {
-                        title: "Services RSS Feed",
-                        output: "rss.xml",
-                        query: `
-                    {
-                      allMarkdownRemark(
-                        limit: 2000
-                        sort: {fields: frontmatter___date, order: ASC}
-                        filter: { fields: { slug: { ne: $slug } } }
-                        ) {
-                        edges {
-                            node {
-                                fields {
-                                    slug
-                                }
-                                frontmatter {
-                                    title
-                                    cover
-                                    date
-                                }
-                            }
-                        }
-                      }
-                    }
-                    `,
-                        serialize: ({ query: { site, allMarkdownRemark } }) => {
-                            console.log(allMarkdownRemark);
-                            return allMarkdownRemark.edges.map((node) => {
-                                return Object.assign({}, node.frontmatter, {
-                                    url: `${site.siteMetadata.siteUrl}${node.fields.slug}`,
-                                    guid: `${site.siteMetadata.siteUrl}${node.fields.slug}`,
-                                });
-                            });
-                        },
-                    },
-                ],
-            },
-        },
+        // {
+        //     resolve: "gatsby-plugin-feed", // todo : ovo pogledat
+        //     options: {
+        //         query: `
+        //           {
+        //             site {
+        //               siteMetadata {
+        //                 title
+        //                 description
+        //                 siteUrl
+        //                 site_url: siteUrl
+        //               }
+        //             }
+        //           }
+        //         `,
+        //         feeds: [
+        //             {
+        //                 title: "Services RSS Feed",
+        //                 output: "/rss.xml",
+        //                 query: `
+        //             {
+        //               allMarkdownRemark(
+        //                 limit: 2000
+        //                 sort: {fields: [frontmatter___date], order: ASC}
+        //                 filter: { fields: { slug: { ne: $slug } } }
+        //                 ) {
+        //                 edges {
+        //                     node {
+        //                         fields {
+        //                             slug
+        //                         }
+        //                         frontmatter {
+        //                             title
+        //                             description
+        //                             cover
+        //                             date
+        //                         }
+        //                     }
+        //                 }
+        //               }
+        //             }
+        //             `,
+        //                 serialize: ({ query: { site, allMarkdownRemark } }) => {
+        //                     console.log(allMarkdownRemark);
+        //                     return allMarkdownRemark.edges.map((node) => {
+        //                         return Object.assign({}, node.frontmatter, {
+        //                             url: `${site.siteMetadata.siteUrl}${node.fields.slug}`,
+        //                             guid: `${site.siteMetadata.siteUrl}${node.fields.slug}`,
+        //                         });
+        //                     });
+        //                 },
+        //             },
+        //         ],
+        //     },
+        // },
         "gatsby-plugin-react-helmet",
         {
             resolve: "gatsby-source-filesystem",
