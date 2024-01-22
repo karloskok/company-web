@@ -1,33 +1,16 @@
-// @import 'mixins.scss';
-// @import 'colours.scss';
-// @import 'variables.scss';
-// @import 'typography.scss';
-// @import 'global.scss';
-// @import 'code.scss';
-// @import 'page.scss';
-// @import 'social.scss';
-// @import 'richtext.scss';
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap);
 
+@import "/static/styles/bootstrap.min.css";
+@import "/static/styles/all.min.css";
+@import "/static/styles/animate.compat.css";
+@import "/static/styles/simple-line-icons.css";
+@import "/static/styles/owl.carousel.css";
+@import "/static/styles/owl.theme.default.min.css";
+@import "/static/styles/magnific-popup.min.css";
 
+@import "/static/styles/theme.css";
+@import "/static/styles/theme-elements.css";
 
-
-
-
-@import "../styles/vendor/bootstrap/css/bootstrap.min.css";
-@import "../styles/vendor/fontawesome-free/css/all.min.css";
-@import "../styles/vendor/animate/animate.compat.css";
-@import "../styles/vendor/simple-line-icons/css/simple-line-icons.min.css";
-@import "../styles/vendor/owl.carousel/assets/owl.carousel.min.css";
-@import "../styles/vendor/owl.carousel/assets/owl.theme.default.min.css";
-@import "../styles/vendor/magnific-popup/magnific-popup.min.css";
-
-@import "../styles/css/theme.css";
-@import "../styles/css/theme-elements.css";
-@import "../styles/css/theme-blog.css";
-@import "../styles/css/theme-shop.css";
-
-@import "../styles/css/demos/demo-business-consulting-2.css";
-
-@import "../styles/css/skins/skin-business-consulting-2.css";
-
-@import "../styles/css/custom.css";
+@import "/static/styles/demo-business-consulting-2.css";
+@import "/static/styles/skin-business-consulting-2.css";
+@import "/static/styles/custom.css";

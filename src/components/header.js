@@ -1,8 +1,4 @@
 import React from "react";
-import phone from "../images/business-consulting-2/icons/phone.svg";
-import mail from "../images/business-consulting-2/icons/mail.svg";
-import calendar from "../images/business-consulting-2/icons/calendar.svg";
-import barcode from "../images/business-consulting-2/logos/barcode.png";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 export default () => (
@@ -25,7 +21,7 @@ export default () => (
                                                     <img
                                                         width="15"
                                                         height="18"
-                                                        src={phone}
+                                                        src="images/phone.svg"
                                                         alt="Phone"
                                                     />
                                                 </span>
@@ -41,7 +37,7 @@ export default () => (
                                                     <img
                                                         width="25"
                                                         height="18"
-                                                        src={mail}
+                                                        src="images/mail.svg"
                                                         alt="Mail"
                                                     />
                                                 </span>
@@ -49,32 +45,10 @@ export default () => (
                                                     className="text-color-secondary text-color-hover-primary text-decoration-none"
                                                     href="mailto:business@portotheme.com"
                                                 >
-                                                    igor.glavic@gmail.com
+                                                    igor.neto@gmail.com
                                                 </a>
                                             </span>
-                                            {/* <span className="header-top-opening-hours px-0 font-weight-normal align-items-center text-color-secondary d-none d-xl-flex">
-                                                <span>
-                                                    <img
-                                                        width="19"
-                                                        height="18"
-                                                        src={calendar}
-                                                        alt="Calendar"
-                                                    />
-                                                </span>
-                                                Mon - Sat 9:00am - 6:00pm /
-                                                Sunday - CLOSED
-                                            </span> */}
                                         </li>
-                                        {/* <li className="nav-item nav-item-header-top-socials d-none d-md-flex justify-content-between h-100">
-                                            <span className="header-top-button-make-as-appoitment d-inline-flex align-items-center justify-content-center h-100 p-0 align-top">
-                                                <a
-                                                    href="demo-business-consulting-2-contact-us.html"
-                                                    className="btn-primary d-flex align-items-center justify-content-center h-100 w-100 text-color-light font-weight-semibold text-decoration-none text-uppercase custom-button-header-top"
-                                                >
-                                                    free initial consultation
-                                                </a>
-                                            </span>
-                                        </li> */}
                                     </ul>
                                 </nav>
                             </div>
@@ -87,12 +61,12 @@ export default () => (
                     <div className="header-column header-column-logo">
                         <div className="header-row">
                             <div className="header-logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img
                                         alt="Porto"
-                                        width="123"
-                                        height="32"
-                                        src={barcode}
+                                        width="auto"
+                                        height="60"
+                                        src="images/logo.png"
                                     />
                                 </a>
                             </div>
@@ -109,29 +83,26 @@ export default () => (
                                         >
                                             <li className="dropdown-secondary">
                                                 <a
-                                                    href="/"
-                                                    title="Our team"
                                                     className="nav-link active"
+                                                    href="/"
                                                 >
-                                                    Home
+                                                    Naslovna
                                                 </a>
                                             </li>
                                             <li className="dropdown-secondary">
                                                 <AnchorLink
                                                     className="nav-link"
-                                                    to="#o-nama"
-                                                    title="about us"
+                                                    to="#usluge"
                                                 >
-                                                    O nama
+                                                    Usluge
                                                 </AnchorLink>
                                             </li>
                                             <li className="dropdown-secondary">
                                                 <AnchorLink
                                                     className="nav-link"
-                                                    to="#usluge"
-                                                    title="usluhgeee"
+                                                    to="#o-nama"
                                                 >
-                                                    Usluge
+                                                    O nama
                                                 </AnchorLink>
                                             </li>
 
@@ -139,7 +110,6 @@ export default () => (
                                                 <AnchorLink
                                                     className="nav-link"
                                                     to="#kontakt"
-                                                    title="kontatatta"
                                                 >
                                                     Kontakt
                                                 </AnchorLink>
@@ -157,47 +127,6 @@ export default () => (
                             </div>
                         </div>
                     </div>
-                    {/* <div className="header-column header-column-search justify-content-center align-items-end">
-                        <div className="header-nav-features">
-                            <div className="header-nav-feature header-nav-features-search d-inline-flex">
-                                <a
-                                    href="#"
-                                    className="header-nav-features-toggle"
-                                    data-focus="headerSearch"
-                                >
-                                    <i className="fas fa-search header-nav-top-icon text-color-secondary text-3"></i>
-                                </a>
-                                <div
-                                    className="header-nav-features-dropdown header-nav-features-dropdown-mobile-fixed border-radius-0"
-                                    id="headerTopSearchDropdown"
-                                >
-                                    <form
-                                        role="search"
-                                        action="page-search-results.html"
-                                        method="get"
-                                    >
-                                        <div className="simple-search input-group">
-                                            <input
-                                                className="form-control text-1"
-                                                id="headerSearch"
-                                                name="q"
-                                                type="search"
-                                                value=""
-                                                placeholder="Search..."
-                                            />
-                                            <button
-                                                className="btn"
-                                                type="submit"
-                                                aria-label="Search"
-                                            >
-                                                <i className="fa fa-search header-nav-top-icon text-color-secondary"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
             </div>
         </div>

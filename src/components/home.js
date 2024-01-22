@@ -1,27 +1,9 @@
 import React from "react";
 import ServicesListing from "./ServicesListing.js";
 
-import strategic from "../images/business-consulting-2/icons/strategic.png";
-import financial from "../images/business-consulting-2/icons/financial.png";
-import cash from "../images/business-consulting-2/icons/cash.png";
-import coaching_1 from "../images/business-consulting-2/coaching/coaching-1.jpg";
-import coaching_2 from "../images/business-consulting-2/coaching/coaching-2.jpg";
-import coaching_3 from "../images/business-consulting-2/coaching/coaching-3.jpg";
-import case_logo_1 from "../images/business-consulting-2/logos/case-logo-1.png";
-import case_logo_2 from "../images/business-consulting-2/logos/case-logo-2.png";
-import case_logo_3 from "../images/business-consulting-2/logos/case-logo-3.png";
-
-import avatar_2 from "../images/avatar-2.jpg";
-import avatar_3 from "../images/avatar-3.jpg";
-
-import phone from "../images/business-consulting-2/icons/phone.svg";
-
-import blog_1 from "../images/business-consulting-2/blog/blog-1.png";
-import blog_2 from "../images/business-consulting-2/blog/blog-2.png";
-
-import bg_1 from "../images/business-consulting-2/bg/bg-1.jpg";
-
-import slide_1 from "../images/img/demos/business-consulting-2/slides/slide-1.jpg";
+{
+    /* <ServicesListing services={servicesEdges} /> */
+}
 
 export default ({ servicesEdges }) => (
     <main>
@@ -42,7 +24,7 @@ export default ({ servicesEdges }) => (
                                 data-plugin-options="{'minWindowWidth': 0}"
                                 data-carousel-onchange-show
                                 style={{
-                                    backgroundImage: { slide_1 },
+                                    backgroundImage: "url(images/slide5.jpeg)",
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                 }}
@@ -57,8 +39,8 @@ export default ({ servicesEdges }) => (
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
                                             <span className="line-pre-title bg-color-primary d-none d-lg-inline-block"></span>
-                                            Business Consulting services located
-                                            in Los Angeles, CA
+                                            Projektantska tvrtka iz područja
+                                            građevinarstva
                                         </h2>
                                         <h1
                                             className="text-color-secondary font-weight-extra-bold text-10 line-height-2 pe-lg-5 me-lg-5 mb-3 appear-animation"
@@ -66,8 +48,8 @@ export default ({ servicesEdges }) => (
                                             data-appear-animation-delay="750"
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
-                                            Reliable Management Consulting
-                                            Services
+                                            Od projektiranja do stručnog nadzora
+                                            i certificiranja
                                         </h1>
                                         <p
                                             className="text-4 text-color-dark font-weight-light mb-4 appear-animation"
@@ -75,8 +57,8 @@ export default ({ servicesEdges }) => (
                                             data-appear-animation-delay="1000"
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
-                                            Professional helping you design
-                                            success!
+                                            Pružamo vam potpunu uslugu na jednom
+                                            mjestu
                                         </p>
                                         <a
                                             href="#"
@@ -85,12 +67,13 @@ export default ({ servicesEdges }) => (
                                             data-appear-animation-delay="1250"
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
-                                            GET STARTED
+                                            Saznaj više
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div className="owl-item position-relative overflow-hidden">
                             <div
                                 className="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0"
@@ -99,8 +82,7 @@ export default ({ servicesEdges }) => (
                                 data-plugin-options="{'minWindowWidth': 0}"
                                 data-carousel-onchange-show
                                 style={{
-                                    BackgroundImage:
-                                        "url(../images/img/demos/business-consulting-2/slides/slide-2.jpg)",
+                                    backgroundImage: "url(images/slide12.jpeg)",
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                 }}
@@ -115,8 +97,8 @@ export default ({ servicesEdges }) => (
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
                                             <span className="line-pre-title bg-color-primary d-none d-lg-inline-block"></span>
-                                            Business Consulting services located
-                                            in Los Angeles, CA
+                                            Projektantska tvrtka iz područja
+                                            građevinarstva
                                         </h3>
                                         <h2
                                             className="text-color-secondary font-weight-extra-bold text-10 line-height-2 pe-lg-5 me-lg-5 mb-3 appear-animation"
@@ -124,7 +106,8 @@ export default ({ servicesEdges }) => (
                                             data-appear-animation-delay="750"
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
-                                            You Success is Our Main Business!
+                                            Vaše zadovoljstvo je naš glavni
+                                            posao
                                         </h2>
                                         <p
                                             className="text-4 text-color-dark font-weight-light mb-4 appear-animation"
@@ -132,8 +115,8 @@ export default ({ servicesEdges }) => (
                                             data-appear-animation-delay="1000"
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
-                                            Professional helping you design
-                                            success!
+                                            Nudimo profesionalne usluge uz
+                                            povoljnu cijenu
                                         </p>
                                         <a
                                             href="#"
@@ -142,27 +125,13 @@ export default ({ servicesEdges }) => (
                                             data-appear-animation-delay="1250"
                                             data-plugin-options="{'minWindowWidth': 0}"
                                         >
-                                            GET STARTED
+                                            Saznaj više
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div className="owl-nav">
-                    <button
-                        type="button"
-                        role="presentation"
-                        className="owl-prev"
-                        aria-label="Previous"
-                    ></button>
-                    <button
-                        type="button"
-                        role="presentation"
-                        className="owl-next"
-                        aria-label="Next"
-                    ></button>
                 </div>
             </div>
 
@@ -177,8 +146,8 @@ export default ({ servicesEdges }) => (
                             <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
                                     <img
-                                        src={strategic}
-                                        alt="Strategic Planning"
+                                        src="images/idea.svg"
+                                        alt="Vaša ideja"
                                         className="appear-animation"
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="100"
@@ -188,25 +157,16 @@ export default ({ servicesEdges }) => (
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="200"
                                     >
-                                        Strategic Planning
+                                        Vaša ideja
                                     </h4>
                                     <p
                                         className="card-text text-center pt-2 appear-animation"
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="300"
                                     >
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Nunc viverra erat orci,
-                                        ac auctor lacus tincidunt ut...
+                                        Vrijeme je da vaše ideje zažive uz
+                                        stručan Barcode tim
                                     </p>
-                                    <a
-                                        href="#"
-                                        className="font-weight-bold text-uppercase text-decoration-none mt-3 appear-animation"
-                                        data-appear-animation="fadeInUpShorter"
-                                        data-appear-animation-delay="400"
-                                    >
-                                        read more +
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -214,8 +174,8 @@ export default ({ servicesEdges }) => (
                             <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
                                     <img
-                                        src={financial}
-                                        alt="Financial Clean-Up"
+                                        src="images/quality.svg"
+                                        alt="Naša stručnost"
                                         className="appear-animation"
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="500"
@@ -225,25 +185,16 @@ export default ({ servicesEdges }) => (
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="600"
                                     >
-                                        Financial Clean-Up
+                                        Naša stručnost
                                     </h4>
                                     <p
                                         className="card-text text-center pt-2 appear-animation"
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="700"
                                     >
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Nunc viverra erat orci,
-                                        ac auctor lacus tincidunt ut...
+                                        Dopustite da vam sugeriramo raznovrsna
+                                        moderna, dizajnerska, unikatna rješenja
                                     </p>
-                                    <a
-                                        href="#"
-                                        className="font-weight-bold text-uppercase text-decoration-none mt-3 appear-animation"
-                                        data-appear-animation="fadeInUpShorter"
-                                        data-appear-animation-delay="800"
-                                    >
-                                        read more +
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -251,8 +202,8 @@ export default ({ servicesEdges }) => (
                             <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body d-flex align-items-center justify-content-between flex-column z-index-1 border-end-0">
                                     <img
-                                        src={cash}
-                                        alt="Cash Flow Planning"
+                                        src="images/happy.svg"
+                                        alt="Zadovoljan klijent"
                                         className="appear-animation"
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="900"
@@ -262,25 +213,16 @@ export default ({ servicesEdges }) => (
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="1000"
                                     >
-                                        Cash Flow Planning
+                                        Zadovoljan klijent
                                     </h4>
                                     <p
                                         className="card-text text-center pt-2 appear-animation"
                                         data-appear-animation="fadeInUpShorter"
                                         data-appear-animation-delay="1100"
                                     >
-                                        Lorem ipsum dolor sit amet, consectetur
-                                        adipiscing elit. Nunc viverra erat orci,
-                                        ac auctor lacus tincidunt ut...
+                                        Za nas je svaki klijent jednako bitan,
+                                        svaki projekt jednako važan
                                     </p>
-                                    <a
-                                        href="#"
-                                        className="font-weight-bold text-uppercase text-decoration-none mt-3 appear-animation"
-                                        data-appear-animation="fadeInUpShorter"
-                                        data-appear-animation-delay="1200"
-                                    >
-                                        read more +
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -291,7 +233,7 @@ export default ({ servicesEdges }) => (
             <section
                 id="usluge"
                 className="our-services d-flex p-relative z-index-1 bg-color-light lazyload"
-                data-bg-src={bg_1}
+                data-bg-src="images/bg6.jpeg"
             >
                 <div className="col-img-our-services p-absolute overflow-hidden w-50 h-100"></div>
                 <div className="container">
@@ -312,32 +254,13 @@ export default ({ servicesEdges }) => (
                             >
                                 Što radimo?
                             </h2>
-                            <p
-                                className="font-weight-semibold mb-4 appear-animation"
-                                data-appear-animation="fadeInRightShorter"
-                                data-appear-animation-delay="300"
-                            >
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Morbi ut.
-                            </p>
-                            <p
-                                className="mb-4 pb-2 appear-animation"
-                                data-appear-animation="fadeInRightShorter"
-                                data-appear-animation-delay="400"
-                            >
-                                Cras a elit sit amet leo accumsan volutpat.
-                                Suspendisse hendrerit vehicula leo, vel
-                                efficitur felis ultrices non. Integer aliquet.
-                            </p>
                             <div
                                 className="accordion accordion-sm appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="500"
                                 id="accordionServices"
                             >
-                                <ServicesListing services={servicesEdges} />
-
-                                {/* <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
+                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
                                     <div className="card-header py-2 bg-color-quaternary">
                                         <h4 className="card-title m-0">
                                             <a
@@ -369,7 +292,7 @@ export default ({ servicesEdges }) => (
                                                 href="demo-business-consulting-2-services.html"
                                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                                             >
-                                                read more +
+                                                Saznaj više +
                                             </a>
                                         </div>
                                     </div>
@@ -407,11 +330,11 @@ export default ({ servicesEdges }) => (
                                                 href="demo-business-consulting-2-services.html"
                                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                                             >
-                                                read more +
+                                                Saznaj više +
                                             </a>
                                         </div>
                                     </div>
-                                </div> */}
+                                </div>
                                 <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
                                     <div className="card-header py-2 bg-color-quaternary">
                                         <h4 className="card-title m-0">
@@ -448,7 +371,7 @@ export default ({ servicesEdges }) => (
                                                 href="demo-business-consulting-2-services.html"
                                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                                             >
-                                                read more +
+                                                Saznaj više +
                                             </a>
                                         </div>
                                     </div>
@@ -489,7 +412,7 @@ export default ({ servicesEdges }) => (
                                                 href="demo-business-consulting-2-services.html"
                                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                                             >
-                                                read more +
+                                                Saznaj više +
                                             </a>
                                         </div>
                                     </div>
@@ -525,7 +448,7 @@ export default ({ servicesEdges }) => (
                                                 href="demo-business-consulting-2-services.html"
                                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                                             >
-                                                read more +
+                                                Saznaj više +
                                             </a>
                                         </div>
                                     </div>
@@ -570,7 +493,7 @@ export default ({ servicesEdges }) => (
                                                 href="demo-business-consulting-2-services.html"
                                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                                             >
-                                                read more +
+                                                Saznaj više +
                                             </a>
                                         </div>
                                     </div>
@@ -590,7 +513,10 @@ export default ({ servicesEdges }) => (
                 </div>
             </section>
 
-            <section className="coaching-consulting d-flex p-relative bg-color-light pt-3 pb-3 pt-lg-5 pb-lg-4">
+            <section
+                id="o-nama"
+                className="coaching-consulting d-flex p-relative bg-color-light pt-3 pb-3 pt-lg-5 pb-lg-4"
+            >
                 <div className="container">
                     <div className="row justify-content-end py-5">
                         <div className="col-lg-6">
@@ -600,36 +526,34 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="100"
                             >
                                 <span className="line-pre-title bg-color-primary"></span>
-                                coaching and consulting
+                                nova razina kvalitete
                             </p>
                             <h2
                                 className="text-color-secondary font-weight-bold text-capitalize mb-4 custom-letter-spacing-2 custom-text-1 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="200"
                             >
-                                Experienced Team
+                                Uspješan tim
                             </h2>
                             <p
                                 className="font-weight-semibold mb-4 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="300"
                             >
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Cras a elit sit amet leo
-                                accumsan volutpat. Suspendisse hendrerit
-                                vehicula leo, vel efficitur felis ultrices non.
-                                Integer aliquet ullamcorper dolor, quis
-                                sollicitudin.
+                                Od same ideje, preko izrade i vođenja projekta,
+                                sve do stručnog nadzora građenja, uz Vas smo na
+                                svakom koraku.
                             </p>
                             <p
                                 className="mb-4 pb-2 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="400"
                             >
-                                Cras a elit sit amet leo accumsan volutpat.
-                                Suspendisse hendrerit vehicula leo, vel
-                                efficitur felis ultrices non. Integer aliquet
-                                ullamcorper dolor, quis sollicitudin.
+                                Brinemo o zaštiti na radu te raznim poslovima
+                                oko procjene i poslovanja s nekretninama i
+                                energetskom certificiranju. Suradnjom s nama
+                                štedite vrijeme i novac te najvažnije od svega -
+                                dobivate kvalitetnu uslugu.
                             </p>
                             <div
                                 className="d-flex align-items-center justify-content-start appear-animation"
@@ -640,17 +564,16 @@ export default ({ servicesEdges }) => (
                                     <div
                                         className="circular-bar-chart"
                                         data-percent="89"
-                                        data-plugin-options="{'barColor': '#e8465f'}"
+                                        data-plugin-options="{'barColor': '#009099'}"
                                     >
                                         <strong className="text-5 text-color-tertiary">
-                                            89%
+                                            99%
                                         </strong>
                                     </div>
                                 </div>
                                 <h4 className="font-weight-bold text-color-tertiary m-0 ms-3">
-                                    Successful cases
-                                    <br />
-                                    in 15 years.
+                                    Uspješnih projekata <br />
+                                    od 2018.
                                 </h4>
                             </div>
                         </div>
@@ -661,7 +584,7 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <img
-                                    src={coaching_1}
+                                    src="images/img16.jpg"
                                     className="img-fluid border-radius-0"
                                     alt=""
                                 />
@@ -672,7 +595,7 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <img
-                                    src={coaching_2}
+                                    src="images/img2.jpeg"
                                     className="img-fluid border-radius-0"
                                     alt=""
                                 />
@@ -683,7 +606,7 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <img
-                                    src={coaching_3}
+                                    src="images/img15.jpg"
                                     className="img-fluid border-radius-0"
                                     alt=""
                                 />
@@ -710,139 +633,147 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src={case_logo_1}
-                                                    alt="Bullseye"
+                                                    src="images/case1.svg"
+                                                    alt="Prihvacamo nove ideje"
                                                 />
-                                                <a
-                                                    href="demo-business-consulting-2-cases-detail.html"
-                                                    className="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute"
-                                                >
-                                                    read more
-                                                </a>
                                             </div>
                                             <blockquote className="px-0 pb-5">
                                                 <h4 className="text-color-secondary font-weight-bold text-start">
-                                                    Bullseye Case
+                                                    Prihvaćamo nove ideje
                                                 </h4>
                                                 <p className="mb-0 text-start text-3">
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipiscing elit.
-                                                    Sed eget risus porta,
-                                                    tincidunt turpis at,
-                                                    interdum tortor. Suspendisse
-                                                    potenti.
-                                                    <a
-                                                        href="demo-business-consulting-2-cases-detail.html"
-                                                        className="font-weight-bold text-uppercase text-decoration-none d-block d-sm-none mt-3"
-                                                    >
-                                                        read more +
-                                                    </a>
+                                                    Otvoreni smo za nove ideje i
+                                                    iskustva, a kroz stručnu
+                                                    podršku i savjetovanja našim
+                                                    korisnicima, unaprjeđivat
+                                                    ćemo usluge koristeći znanje
+                                                    i iskustvo.
                                                 </p>
                                             </blockquote>
                                             <div className="testimonial-arrow-down"></div>
-                                            <div className="testimonial-author d-flex flex-row justify-content-start align-items-center">
-                                                <img
-                                                    src={avatar_3}
-                                                    className="img-fluid rounded-circle m-0 me-3"
-                                                    alt=""
-                                                />
-                                                <p>
-                                                    <strong className="font-weight-extra-bold text-start text-color-secondary mb-1">
-                                                        John Smith
-                                                    </strong>
-                                                    <span className="text-uppercase text-start">
-                                                        Manager
-                                                    </span>
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className="custom-testimonial-container bg-color-light">
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src={case_logo_2}
-                                                    alt="Bullseye"
+                                                    src="images/case2.svg"
+                                                    alt="Prihvacamo nove ideje"
                                                 />
-                                                <a
-                                                    href="demo-business-consulting-2-cases-detail.html"
-                                                    className="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute"
-                                                >
-                                                    read more
-                                                </a>
                                             </div>
                                             <blockquote className="px-0 pb-5">
                                                 <h4 className="text-color-secondary font-weight-bold text-start">
-                                                    Wall Paint Shop Case
+                                                    Pouzdani smo i odgovorni
                                                 </h4>
                                                 <p className="mb-0 text-start text-3">
-                                                    Lorem ipsum dolor sit amet,
-                                                    consectetur adipiscing elit.
-                                                    Sed eget porta, tincidunt
-                                                    turpis at, interdum tortor.
-                                                    Suspendisse potenti.
+                                                    Naši klijenti s potpunom
+                                                    sigurnošću mogu računati da
+                                                    ćemo odgovorno i pouzdano
+                                                    izvesti sve radove nadzora i
+                                                    savjetovanja na obostrano
+                                                    zadovoljstvo.
                                                 </p>
                                             </blockquote>
                                             <div className="testimonial-arrow-down"></div>
-                                            <div className="testimonial-author d-flex flex-row justify-content-start align-items-center">
-                                                <img
-                                                    src={avatar_2}
-                                                    className="img-fluid rounded-circle m-0 me-3"
-                                                    alt=""
-                                                />
-                                                <p>
-                                                    <strong className="font-weight-extra-bold text-start text-color-secondary mb-1">
-                                                        John Doe
-                                                    </strong>
-                                                    <span className="text-uppercase text-start">
-                                                        Manager
-                                                    </span>
-                                                </p>
-                                            </div>
                                         </div>
                                     </div>
                                     <div className="custom-testimonial-container bg-color-light">
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src={case_logo_3}
-                                                    alt="Bullseye"
+                                                    src="images/case3.svg"
+                                                    alt="Prihvacamo nove ideje"
                                                 />
-                                                <a
-                                                    href="demo-business-consulting-2-cases-detail.html"
-                                                    className="d-block btn btn-primary custom-button-testimonial-right text-center text-uppercase text-decoration-none border-0 p-0 font-weight-semibold p-absolute"
-                                                >
-                                                    read more
-                                                </a>
                                             </div>
                                             <blockquote className="px-0 pb-5">
                                                 <h4 className="text-color-secondary font-weight-bold text-start">
-                                                    Go Gold Golden Case
+                                                    Poštujemo dogovorene rokove
                                                 </h4>
                                                 <p className="mb-0 text-start text-3">
-                                                    Lorem ipsum dolor sit amet,
-                                                    adipiscing elit. Sed eget
-                                                    porta, tincidunt turpis at,
-                                                    interdum tortor. Suspendisse
-                                                    potenti.
+                                                    Budite sigurni da ćemo
+                                                    cjelovito pristupiti svakom
+                                                    projektu bez probijanja
+                                                    rokova, nepotpunih analiza i
+                                                    sastanaka bez dnevnog reda.
+                                                    Jer mi smo tu zbog vas!
                                                 </p>
                                             </blockquote>
                                             <div className="testimonial-arrow-down"></div>
-                                            <div className="testimonial-author d-flex flex-row justify-content-start align-items-center">
+                                        </div>
+                                    </div>
+                                    <div className="custom-testimonial-container bg-color-light">
+                                        <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
+                                            <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src={avatar_3}
-                                                    className="img-fluid rounded-circle m-0 me-3"
-                                                    alt=""
+                                                    src="images/case4.svg"
+                                                    alt="Prihvacamo nove ideje"
                                                 />
-                                                <p>
-                                                    <strong className="font-weight-extra-bold text-start text-color-secondary mb-1">
-                                                        Bob Smith
-                                                    </strong>
-                                                    <span className="text-uppercase text-start">
-                                                        Manager
-                                                    </span>
-                                                </p>
                                             </div>
+                                            <blockquote className="px-0 pb-5">
+                                                <h4 className="text-color-secondary font-weight-bold text-start">
+                                                    Prilagođavamo se u skladu s
+                                                    vašim potrebama
+                                                </h4>
+                                                <p className="mb-0 text-start text-3">
+                                                    Lako se prilagođavamo
+                                                    tržišnim promjenama i
+                                                    novonastalim situacijama.
+                                                    Obratite nam se s punim
+                                                    povjerenjem jer posjedujemo
+                                                    golemo iskustvo i stručne
+                                                    inženjere.
+                                                </p>
+                                            </blockquote>
+                                            <div className="testimonial-arrow-down"></div>
+                                        </div>
+                                    </div>
+                                    <div className="custom-testimonial-container bg-color-light">
+                                        <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
+                                            <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
+                                                <img
+                                                    src="images/case5.svg"
+                                                    alt="Prihvacamo nove ideje"
+                                                />
+                                            </div>
+                                            <blockquote className="px-0 pb-5">
+                                                <h4 className="text-color-secondary font-weight-bold text-start">
+                                                    Pratimo namjensko trošenje
+                                                    sredstava
+                                                </h4>
+                                                <p className="mb-0 text-start text-3">
+                                                    Kroz financijski nadzor nad
+                                                    građenjem pratimo namjensko
+                                                    trošenje sredstava i
+                                                    kontroliramo usklađenost
+                                                    projektne dokumentacije s
+                                                    izvedenim radovima.
+                                                </p>
+                                            </blockquote>
+                                            <div className="testimonial-arrow-down"></div>
+                                        </div>
+                                    </div>
+                                    <div className="custom-testimonial-container bg-color-light">
+                                        <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
+                                            <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
+                                                <img
+                                                    src="images/case6.svg"
+                                                    alt="Prihvacamo nove ideje"
+                                                />
+                                            </div>
+                                            <blockquote className="px-0 pb-5">
+                                                <h4 className="text-color-secondary font-weight-bold text-start">
+                                                    Dobar glas daleko se čuje
+                                                </h4>
+                                                <p className="mb-0 text-start text-3">
+                                                    Naši klijenti su vrlo
+                                                    zadovoljni našim uslugama.
+                                                    Cilj nam je stvoriti
+                                                    zajednicu sretnih i
+                                                    zadovoljnih korisnika koji
+                                                    će nas preporučiti drugima.
+                                                </p>
+                                            </blockquote>
+                                            <div className="testimonial-arrow-down"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -855,60 +786,34 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <span className="line-pre-title bg-color-primary"></span>
-                                real world stories
+                                6 razloga
                             </p>
                             <h2
                                 className="text-color-secondary font-weight-bold text-capitalize mb-4 custom-letter-spacing-2 custom-text-1 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="400"
                             >
-                                Sucessful Cases
+                                zašto odabrati nas
                             </h2>
                             <p
                                 className="font-weight-semibold mb-4 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="500"
                             >
-                                Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Cras a elit sit amet leo
-                                accumsan volutpat.
+                                Nit vodilja naše tvrtke je ponuditi najbolje
+                                materijale po pristupačnim cijenama, te svakoj
+                                kupnji ponuditi dodanu vrijednost.
                             </p>
                             <p
                                 className="mb-4 pb-2 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="600"
                             >
-                                Cras a elit sit amet leo accumsan volutpat.
-                                Suspendisse hendrerit vehicula leo, vel
-                                efficitur felis ultrices non. Integer aliquet
-                                ullamcorper dolor, quis sollicitudin.
+                                Dosadašnji rezultati naš su pokazatelj da
+                                svakome projektu pristupamo individualno i
+                                odgovorno stoga nam se obratite s povjerenjem za
+                                sve naše usluge.
                             </p>
-                            <div className="counters custom-counters d-flex">
-                                <div
-                                    className="counter counter-primary appear-animation"
-                                    data-appear-animation="fadeInUpShorter"
-                                    data-appear-animation-delay="1000"
-                                >
-                                    <strong data-to="240" data-append="+">
-                                        0
-                                    </strong>
-                                    <label className="text-color-primary font-weight-bold">
-                                        Satisfied Clients
-                                    </label>
-                                </div>
-                                <div
-                                    className="counter counter-primary appear-animation"
-                                    data-appear-animation="fadeInUpShorter"
-                                    data-appear-animation-delay="1200"
-                                >
-                                    <strong data-to="2000" data-append="+">
-                                        0
-                                    </strong>
-                                    <label className="text-color-primary font-weight-bold">
-                                        Successfull Cases
-                                    </label>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -928,22 +833,22 @@ export default ({ servicesEdges }) => (
                                     data-appear-animation="fadeInRightShorter"
                                     data-appear-animation-delay="200"
                                 ></span>
-                                Are you looking for a
+                                Imate li pitanja?
                             </p>
                             <h2
                                 className="text-color-light font-weight-bold text-capitalize mb-1 letter-spacing-08 font-size-32 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="200"
                             >
-                                Business Plan Consultant?
+                                Tu smo zbog Vas!
                             </h2>
                             <p
                                 className="font-weight-semibold text-color-light mb-0 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="300"
                             >
-                                Schedule your company strategy session right
-                                now!
+                                Rado ćemo Vam pomoći, saslušati Vaše prijedloge
+                                i učiniti sve da budete zadovoljni.
                             </p>
                         </div>
                         <div className="col-xl-6 d-flex align-items-start align-items-sm-center justify-content-start justify-content-xl-end mt-4 mt-xl-0 flex-column flex-sm-row">
@@ -956,7 +861,7 @@ export default ({ servicesEdges }) => (
                                     <img
                                         width="18"
                                         height="25"
-                                        src={phone}
+                                        src="images/phone.svg"
                                         alt="Phone"
                                     />
                                 </span>
@@ -964,7 +869,7 @@ export default ({ servicesEdges }) => (
                                     className="text-color-light text-decoration-none"
                                     href="tel:123-456-7890"
                                 >
-                                    (800) 123-4567
+                                    +385 (98) 329 525
                                 </a>
                             </span>
                             <a
@@ -973,16 +878,16 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation="fadeInLeftShorter"
                                 data-appear-animation-delay="600"
                             >
-                                free initial consultation
+                                Kontaktirajte nas
                             </a>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section className="our-blog">
-                <div className="container">
-                    <div className="row mt-3 pt-5">
+            <section id="kontakt" className="our-blog">
+                <div className="container py-5" style={{ width: "45%" }}>
+                    <div className="row">
                         <div className="col">
                             <p
                                 className="text-uppercase font-weight-semibold mb-1 text-color-primary appear-animation"
@@ -990,141 +895,105 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="100"
                             >
                                 <span className="line-pre-title bg-color-primary"></span>
-                                our blog
+                                Kontaktirajte nas
                             </p>
                             <h2
-                                className="text-color-secondary font-weight-bold text-capitalize mb-4 custom-letter-spacing-2 custom-text-1 appear-animation"
+                                className="text-color-secondary font-weight-bold text-capitalize mb-2 custom-letter-spacing-2 custom-text-1 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="200"
                             >
-                                News and Articles
+                                Pošaljite nam upit
                             </h2>
-                        </div>
-                    </div>
-                    <div className="row mb-3 pb-5">
-                        <div className="col">
-                            <div className="row">
-                                <div className="col-lg-6 mb-4 mb-lg-0">
-                                    <article>
-                                        <div
-                                            className="card border-0 border-radius-0 box-shadow-1 appear-animation"
-                                            data-appear-animation="fadeInUpShorter"
-                                            data-appear-animation-delay="500"
-                                        >
-                                            <div className="card-body p-4 z-index-1">
-                                                <a href="demo-business-consulting-2-blog-post.html">
-                                                    <img
-                                                        className="card-img-top border-radius-0"
-                                                        src={blog_1}
-                                                        alt="Card Image"
-                                                    />
-                                                </a>
-                                                <p className="text-uppercase text-1 mb-3 pt-1 text-color-default">
-                                                    <time
-                                                        pubdate=""
-                                                        dateTime="2023-01-10"
-                                                    >
-                                                        10 Jan 2023
-                                                    </time>{" "}
-                                                    <span className="opacity-3 d-inline-block px-2">
-                                                        |
-                                                    </span>{" "}
-                                                    3 Comments{" "}
-                                                    <span className="opacity-3 d-inline-block px-2">
-                                                        |
-                                                    </span>{" "}
-                                                    John Doe
-                                                </p>
-                                                <div className="card-body p-0">
-                                                    <h4 className="card-title mb-3 text-5 font-weight-bold">
-                                                        <a
-                                                            className="text-color-secondary"
-                                                            href="demo-business-consulting-2-blog-post.html"
-                                                        >
-                                                            An Interview with
-                                                            John Doe
-                                                        </a>
-                                                    </h4>
-                                                    <p className="card-text mb-3">
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipiscing elit. Nunc
-                                                        viverra lorem ipsum erat
-                                                        orci, ac auctor lacus
-                                                        tincidunt ut...
-                                                    </p>
-                                                    <a
-                                                        href="demo-business-consulting-2-blog-post.html"
-                                                        className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                                    >
-                                                        Read More +
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
+                            <p
+                                className="mb-4 appear-animation"
+                                data-appear-animation="fadeInRightShorter"
+                                data-appear-animation-delay="300"
+                            >
+                                Za sva pitanja obratite nam se putem kontakt
+                                obrasca ili nas nazovite.
+                            </p>
+
+                            <form
+                                className="contact-form custom-form-style-1 appear-animation"
+                                data-appear-animation="fadeIn"
+                                data-appear-animation-delay="100"
+                                action="php/contact-form.php"
+                                method="POST"
+                            >
+                                <div className="contact-form-success alert alert-success d-none mt-4">
+                                    <strong>Uspješno!</strong> Vaša poruka je
+                                    poslana..
                                 </div>
-                                <div className="col-lg-6">
-                                    <article>
-                                        <div
-                                            className="card border-0 border-radius-0 box-shadow-1 appear-animation"
-                                            data-appear-animation="fadeInUpShorter"
-                                            data-appear-animation-delay="700"
-                                        >
-                                            <div className="card-body p-4 z-index-1">
-                                                <a href="demo-business-consulting-2-blog-post.html">
-                                                    <img
-                                                        className="card-img-top border-radius-0"
-                                                        src={blog_2}
-                                                        alt="Card Image"
-                                                    />
-                                                </a>
-                                                <p className="text-uppercase text-1 mb-3 pt-1 text-color-default">
-                                                    <time
-                                                        pubdate=""
-                                                        dateTime="2023-01-10"
-                                                    >
-                                                        10 Jan 2023
-                                                    </time>{" "}
-                                                    <span className="opacity-3 d-inline-block px-2">
-                                                        |
-                                                    </span>{" "}
-                                                    3 Comments{" "}
-                                                    <span className="opacity-3 d-inline-block px-2">
-                                                        |
-                                                    </span>{" "}
-                                                    John Doe
-                                                </p>
-                                                <div className="card-body p-0">
-                                                    <h4 className="card-title mb-3 text-5 font-weight-bold">
-                                                        <a
-                                                            className="text-color-secondary"
-                                                            href="demo-business-consulting-2-blog-post.html"
-                                                        >
-                                                            How to Grow your
-                                                            Business
-                                                        </a>
-                                                    </h4>
-                                                    <p className="card-text mb-3">
-                                                        Lorem ipsum dolor sit
-                                                        amet, consectetur
-                                                        adipiscing elit. Nunc
-                                                        viverra lorem ipsum erat
-                                                        orci, ac auctor lacus
-                                                        tincidunt ut...
-                                                    </p>
-                                                    <a
-                                                        href="demo-business-consulting-2-blog-post.html"
-                                                        className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                                    >
-                                                        Read More +
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </article>
+
+                                <div className="contact-form-error alert alert-danger d-none mt-4">
+                                    <strong>Ups!</strong> Došlo je do problema.
+                                    <span className="mail-error-message text-1 d-block"></span>
                                 </div>
-                            </div>
+                                <div className="row">
+                                    <div className="form-group col-lg-6">
+                                        <input
+                                            type="text"
+                                            placeholder="Ime i Prezime"
+                                            value=""
+                                            data-msg-required="Molimo upišite svoje ime."
+                                            maxlength="100"
+                                            className="form-control"
+                                            name="name"
+                                            required
+                                        />
+                                    </div>
+                                    <div className="form-group col-lg-6">
+                                        <input
+                                            type="email"
+                                            placeholder="E-mail"
+                                            value=""
+                                            data-msg-required="Molimo upišite svoju email adresu."
+                                            data-msg-email="Molimo unesite ispravnu email adresu."
+                                            maxlength="100"
+                                            className="form-control"
+                                            name="email"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="form-group col">
+                                        <input
+                                            placeholder="Naslov"
+                                            type="text"
+                                            value=""
+                                            data-msg-required="Molimo upišite naslov."
+                                            maxlength="100"
+                                            className="form-control"
+                                            name="subject"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="form-group col">
+                                        <textarea
+                                            placeholder="Vaša poruka..."
+                                            maxlength="5000"
+                                            data-msg-required="Molimo upišite Vašu poruku."
+                                            rows="10"
+                                            className="form-control"
+                                            name="message"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                </div>
+                                <div className="row">
+                                    <div className="form-group col">
+                                        <input
+                                            type="submit"
+                                            value="Pošalji"
+                                            className="btn btn-primary custom-btn text-center text-uppercase text-decoration-none border-0 py-0 px-5 font-weight-semibold"
+                                            data-loading-text="Čekanje..."
+                                        />
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
