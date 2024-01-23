@@ -2,23 +2,23 @@
 orderId: 4
 title: "Projektiranje"
 description: "Obavljamo kompletnu uslugu
-    poslova arhitektonskog
-    projektiranja građevina koja se
-    sastoji od izrade idejnih,
-    glavnih, izvedbenih projekata,
-    projekata izvedenog stanja, te
-    ishođenje potrebnih dozvola. U
-    sklopu izrade projekta
-    savjetujemo investitora u
-    pogledu odabira tehnički
-    optimalnih i ekonomski
-    opravdanih tehničkih sustava."
-cover: "/images/projektiranje.jpeg"
+  poslova arhitektonskog
+  projektiranja građevina koja se
+  sastoji od izrade idejnih,
+  glavnih, izvedbenih projekata,
+  projekata izvedenog stanja, te
+  ishođenje potrebnih dozvola. U
+  sklopu izrade projekta
+  savjetujemo investitora u
+  pogledu odabira tehnički
+  optimalnih i ekonomski
+  opravdanih tehničkih sustava."
+cover: "/images/projektiranje.webp"
 date: "22 Jan 2024 07:00 UTC"
 
 metaDescription: "Projektiranje"
-facebook: "how-to-check-for-undefined-variables-facebook.png"
-twitter: "how-to-check-for-undefined-variables-twitter.png"
+facebook: "how-to-check-for-undefined-variables-facebook.webp"
+twitter: "how-to-check-for-undefined-variables-twitter.webp"
 ---
 
 <p

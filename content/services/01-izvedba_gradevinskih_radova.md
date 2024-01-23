@@ -2,20 +2,20 @@
 orderId: 1
 title: "Izvedba građevinskih radova"
 description: "Adaptacija kuće, stana, pomoćnih
-    objekata, garaža, potkrovlja,
-    poslovnog, ugostiteljskog ili
-    bilo kojeg prostora s bilo kojom
-    namjenom. Vrhunski izvedena
-    upravo po vašoj želji ili
-    zamisli: atraktivno i
-    kvalitetno."
-cover: "/images/gradevinski-radovi.jpeg"
+  objekata, garaža, potkrovlja,
+  poslovnog, ugostiteljskog ili
+  bilo kojeg prostora s bilo kojom
+  namjenom. Vrhunski izvedena
+  upravo po vašoj želji ili
+  zamisli: atraktivno i
+  kvalitetno."
+cover: "/images/gradevinski-radovi.webp"
 date: "22 Jan 2024 07:00 UTC"
 openOnStart: true
 
 metaDescription: "Izvedba građevinskih radova"
-facebook: "how-to-check-for-undefined-variables-facebook.png"
-twitter: "how-to-check-for-undefined-variables-twitter.png"
+facebook: "how-to-check-for-undefined-variables-facebook.webp"
+twitter: "how-to-check-for-undefined-variables-twitter.webp"
 ---
 
 <p

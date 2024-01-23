@@ -2,18 +2,18 @@
 orderId: 5
 title: "Izrada energetskih certifikata"
 description: "Provođenje energetskih pregleda
-    i energetsko certificiranje
-    zgrada koji se sastoji od
-    pregleda dostupne dokumentacije,
-    vizualnog pregleda zgrade te
-    izrade izvješća prema
-    Metodologiji."
+  i energetsko certificiranje
+  zgrada koji se sastoji od
+  pregleda dostupne dokumentacije,
+  vizualnog pregleda zgrade te
+  izrade izvješća prema
+  Metodologiji."
 date: "22 Jan 2024 07:00 UTC"
-cover: "/images/energetski-certifikati.png"
+cover: "/images/energetski-certifikati.webp"
 
 metaDescription: "Izrada energetskih certifikata"
-facebook: "how-to-check-for-undefined-variables-facebook.png"
-twitter: "how-to-check-for-undefined-variables-twitter.png"
+facebook: "how-to-check-for-undefined-variables-facebook.webp"
+twitter: "how-to-check-for-undefined-variables-twitter.webp"
 ---
 
 <p

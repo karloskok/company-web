@@ -2,25 +2,25 @@
 orderId: 6
 title: "Ispitivanje zrakopropusnosti (Blower Door test)"
 description: "Blower Door je metoda
-    ispitivanja zrakopropusnosti
-    objekta gdje se mogu locirati
-    dijelovi gdje Vaš objekt
-    nepotrebno gubi energiju. Ovim
-    testom lako otkrivamo da li je
-    Vaš objekt adekvatno
-    “zabrtvljen” i da li je samim
-    time energetski učinkovit. U
-    kombinaciji sa infracrvenom
-    kamerom, možemo detektirati
-    mjesta gdje energija odlazi i
-    ponuditi Vam razne vrste
-    rješenja."
-cover: "/images/zrakopropusnost.jpeg"
+  ispitivanja zrakopropusnosti
+  objekta gdje se mogu locirati
+  dijelovi gdje Vaš objekt
+  nepotrebno gubi energiju. Ovim
+  testom lako otkrivamo da li je
+  Vaš objekt adekvatno
+  “zabrtvljen” i da li je samim
+  time energetski učinkovit. U
+  kombinaciji sa infracrvenom
+  kamerom, možemo detektirati
+  mjesta gdje energija odlazi i
+  ponuditi Vam razne vrste
+  rješenja."
+cover: "/images/zrakopropusnost.webp"
 date: "22 Jan 2024 07:00 UTC"
 
 metaDescription: "Ispitivanje zrakopropusnosti (Blower Door test)"
-facebook: "how-to-check-for-undefined-variables-facebook.png"
-twitter: "how-to-check-for-undefined-variables-twitter.png"
+facebook: "how-to-check-for-undefined-variables-facebook.webp"
+twitter: "how-to-check-for-undefined-variables-twitter.webp"
 ---
 
 <p

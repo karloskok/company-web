@@ -2,23 +2,23 @@
 orderId: 3
 title: "Inžinjering"
 description: "Svojim klijentima nudimo
-    inženjerske usluge pisanje
-    stručnih mišljenja, kontrolu
-    troškovnika, izradu ponuda,
-    izradu troškovnika za projekte
-    sanacija, stručno pisanje izjava
-    izvođača o obavljenim radovima i
-    uvjetima održavanja građevine,
-    kompletiranje dokumentacije za
-    tehnički pregled građevine,
-    izradu i vođenje građevinske
-    knjige."
-cover: "/images/inzinjering1.jpeg"
+  inženjerske usluge pisanje
+  stručnih mišljenja, kontrolu
+  troškovnika, izradu ponuda,
+  izradu troškovnika za projekte
+  sanacija, stručno pisanje izjava
+  izvođača o obavljenim radovima i
+  uvjetima održavanja građevine,
+  kompletiranje dokumentacije za
+  tehnički pregled građevine,
+  izradu i vođenje građevinske
+  knjige."
+cover: "/images/inzinjering1.webp"
 date: "22 Jan 2024 07:00 UTC"
 
 metaDescription: "Inženjering"
-facebook: "how-to-check-for-undefined-variables-facebook.png"
-twitter: "how-to-check-for-undefined-variables-twitter.png"
+facebook: "how-to-check-for-undefined-variables-facebook.webp"
+twitter: "how-to-check-for-undefined-variables-twitter.webp"
 ---
 
 <p

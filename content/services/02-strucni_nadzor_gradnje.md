@@ -2,20 +2,20 @@
 orderId: 2
 title: "Stručni nadzor gradnje"
 description: "Obavljamo poslove kompletnog
-    stručnog nadzora nad kvalitetom
-    izvedbe građevinskih,
-    elektroinstalaterskih i
-    strojarskih radova u tijeku
-    izgradnje temeljem ugovornih
-    uvjeta, tehničkih propisa i
-    uzanci struke - uz aktivno
-    prisustvo na gradilištu."
-cover: "/images/nadzor-gradnje.jpeg"
+  stručnog nadzora nad kvalitetom
+  izvedbe građevinskih,
+  elektroinstalaterskih i
+  strojarskih radova u tijeku
+  izgradnje temeljem ugovornih
+  uvjeta, tehničkih propisa i
+  uzanci struke - uz aktivno
+  prisustvo na gradilištu."
+cover: "/images/nadzor-gradnje.webp"
 date: "22 Jan 2024 07:00 UTC"
 
 metaDescription: "Stručni nadzor gradnje"
-facebook: "how-to-check-for-undefined-variables-facebook.png"
-twitter: "how-to-check-for-undefined-variables-twitter.png"
+facebook: "how-to-check-for-undefined-variables-facebook.webp"
+twitter: "how-to-check-for-undefined-variables-twitter.webp"
 ---
 
 <p

@@ -4,9 +4,9 @@ module.exports = {
     siteTitle: "Barcode", // Site title.
     description: "Firma za izvedbu gradevinskih radova", // Site description.
     siteTitleAlt: "Barcode nesto", // Alternative site title for SEO.
-    siteLogo: "social-image-default-red.png", // Logo used for SEO and manifest.
-    twitterLogo: "social-image-twitter-red.png", // Logo used for social SEO.
-    facebookLogo: "social-image-facebook-red.png", // Logo used for social SEO.
+    siteLogo: "android-chrome-512x512.png", // Logo used for SEO and manifest.
+    twitterLogo: "android-chrome-512x512.png", // Logo used for social SEO.
+    facebookLogo: "android-chrome-512x512.png", // Logo used for social SEO.
     siteUrl: "https://barcode.hr", // Domain of your website without pathPrefix.
     pathPrefix: "/", // Prefixes all links.
     siteDescription: "Izvedba gradevinskih radova", // Website description used for RSS feeds/meta description tag.
