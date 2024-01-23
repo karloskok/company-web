@@ -89,3 +89,15 @@ exports.createPages = ({ graphql, actions }) => {
         );
     });
 };
+
+exports.onCreateWebpackConfig = ({ actions }) => {
+    actions.setWebpackConfig({
+        resolve: {
+            fallback: {
+                path: require.resolve("path-browserify"),
+                crypto: false,
+                os: false,
+            },
+        },
+    });
+};

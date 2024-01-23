@@ -24,8 +24,8 @@ export default function HTML(props) {
                 />
                 {props.postBodyComponents}
 
-                <script src="/vendor/plugins/js/plugins.min.js"></script>
-                <script src="/js/theme.js"></script>
+                <script src="/js/plugins.min.js"></script>
+                <script src="/js/theme.min.js"></script>
             </body>
         </html>
     );

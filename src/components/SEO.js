@@ -134,6 +134,7 @@ export default ({ serviceNode, servicePath, serviceSEO }) => {
             <meta name="twitter:image" content={twitterImage} />
 
             {/* Icons */}
+
             <link
                 rel="apple-touch-icon"
                 sizes="180x180"
@@ -155,9 +156,9 @@ export default ({ serviceNode, servicePath, serviceSEO }) => {
             <link
                 rel="mask-icon"
                 href="/safari-pinned-tab.svg"
-                color="#ffffff"
+                color="#5bbad5"
             />
-            <meta name="msapplication-TileColor" content="#ffffff" />
+            <meta name="msapplication-TileColor" content="#da532c" />
             <meta name="theme-color" content="#ffffff" />
         </Helmet>
     );

@@ -6,12 +6,11 @@ const addScript = (url) => {
 };
 
 exports.onInitialClientRender = () => {
-    addScript("/js/theme.js");
-    addScript("/js/views/view.contact.js");
-    addScript("/js/demos/demo-business-consulting-2.js");
-    addScript("/js/custom.js");
+    addScript("/js/theme.min.js");
+    addScript("/js/view.min.contact.js");
+    addScript("/js/site_main.min.js");
 
-    addScript("/js/theme.init.js");
+    addScript("/js/theme.init.min.js");
     console.log("ReactDOM.render has executed");
 };
 

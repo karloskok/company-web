@@ -9,10 +9,10 @@ module.exports = {
     facebookLogo: "social-image-facebook-red.png", // Logo used for social SEO.
     siteUrl: "https://barcode.hr", // Domain of your website without pathPrefix.
     pathPrefix: "/", // Prefixes all links.
-    siteDescription: "izvedba gradevinskih radova i slicno", // Website description used for RSS feeds/meta description tag.
+    siteDescription: "Izvedba gradevinskih radova", // Website description used for RSS feeds/meta description tag.
     siteRss: "/rss.xml", // Path to the RSS file.
-    siteFBAppID: "123", // FB Application ID for using app insights.
-    googleAnalyticsID: "321", // GA tracking ID. // todo: dodat
+    siteFBAppID: "12345", // FB Application ID for using app insights.
+    googleAnalyticsID: "12345", // GA tracking ID.
     userName: "Igor Rajko",
     userTwitter: "barcode", // For social metadata.
     copyright: "© Barcode", // Copyright string for the footer of the website.

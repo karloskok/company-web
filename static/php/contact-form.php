@@ -18,7 +18,7 @@ if (
 }
 
 
-$secret = '6LdhPlcpAAAAAFPwDq2XCU8las0fTCfqap40pTlS';
+$secret = env('RECAPTCHA_SECRET_KEY',false)
 
 $response = json_decode(file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $request_data['token']), true);
 if ($response['success'] == false || $response['score'] < 0.5) {
@@ -30,7 +30,8 @@ if ($response['success'] == false || $response['score'] < 0.5) {
    $subject = strip_tags(htmlspecialchars($request_data['subject']));
    $message = strip_tags(htmlspecialchars($request_data['message']));
 
-   $to = 'karlo.skok13@gmail.com'; //todo: stavit pravi
+   $to = env('MAIL_ADMIN',false)
+
    $email_subject = "Test Barcode Website Contact Form:  $name";
    $email_body = "You have received a new message from your website contact form.\n\n" . "Here are the details:\n\nName: \n$name\n\nEmail: \n$email_address\n\nSubject:\n$subject\n\nMessage:\n$message";
    $headers = "From: noreply@leonastrucelj.com\n";
