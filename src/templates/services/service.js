@@ -11,7 +11,7 @@ export default ({
         service,
         service: {
             html,
-            frontmatter: { title },
+            frontmatter: { title, cover },
         },
         services: { edges },
     },
