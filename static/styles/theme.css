@@ -12838,7 +12838,7 @@ html body .rounded-circle {
 
 #footer a:not(.btn):not(.no-footer-css):hover {
 	text-decoration: none;
-	color: var(--light);
+	color: var(--primary--200);
 }
 
 #footer a:not(.btn):not(.no-footer-css):focus, #footer a:not(.btn):not(.no-footer-css):active {

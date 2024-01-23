@@ -8,7 +8,7 @@ export default ({ services }) => (
                 {
                     node: {
                         fields: { slug },
-                        frontmatter: { title, description, date, openOnStart },
+                        frontmatter: { title, description, openOnStart },
                     },
                 },
                 index
@@ -41,7 +41,7 @@ export default ({ services }) => (
                                 href={slug}
                                 className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
                             >
-                                read more +
+                                Saznajte više +
                             </a>
                         </div>
                     </div>

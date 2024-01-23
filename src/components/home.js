@@ -1,9 +1,8 @@
 import React from "react";
 import ServicesListing from "./ServicesListing.js";
-
-{
-    /* <ServicesListing services={servicesEdges} /> */
-}
+import { AnchorLink } from "gatsby-plugin-anchor-links";
+import Contact from "./contact.js";
+const config = require("../../data/SiteConfig.js");
 
 export default ({ servicesEdges }) => (
     <main>
@@ -24,7 +23,7 @@ export default ({ servicesEdges }) => (
                                 data-plugin-options="{'minWindowWidth': 0}"
                                 data-carousel-onchange-show
                                 style={{
-                                    backgroundImage: "url(images/slide5.jpeg)",
+                                    backgroundImage: "url(/images/slide5.jpeg)",
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                 }}
@@ -61,7 +60,7 @@ export default ({ servicesEdges }) => (
                                             mjestu
                                         </p>
                                         <a
-                                            href="#"
+                                            href="#usluge"
                                             className="btn btn-primary btn-modern font-weight-bold text-2 btn-py-3 px-5 mt-2 appear-animation"
                                             data-appear-animation="fadeInUpShorter"
                                             data-appear-animation-delay="1250"
@@ -82,7 +81,8 @@ export default ({ servicesEdges }) => (
                                 data-plugin-options="{'minWindowWidth': 0}"
                                 data-carousel-onchange-show
                                 style={{
-                                    backgroundImage: "url(images/slide12.jpeg)",
+                                    backgroundImage:
+                                        "url(/images/slide12.jpeg)",
                                     backgroundSize: "cover",
                                     backgroundPosition: "center",
                                 }}
@@ -119,7 +119,7 @@ export default ({ servicesEdges }) => (
                                             povoljnu cijenu
                                         </p>
                                         <a
-                                            href="#"
+                                            href="#usluge"
                                             className="btn btn-primary btn-modern font-weight-bold text-2 btn-py-3 px-5 mt-2 appear-animation"
                                             data-appear-animation="fadeInUpShorter"
                                             data-appear-animation-delay="1250"
@@ -146,7 +146,7 @@ export default ({ servicesEdges }) => (
                             <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
                                     <img
-                                        src="images/idea.svg"
+                                        src="/images/idea.svg"
                                         alt="Vaša ideja"
                                         className="appear-animation"
                                         data-appear-animation="fadeInUpShorter"
@@ -174,7 +174,7 @@ export default ({ servicesEdges }) => (
                             <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body d-flex align-items-center justify-content-between flex-column z-index-1">
                                     <img
-                                        src="images/quality.svg"
+                                        src="/images/quality.svg"
                                         alt="Naša stručnost"
                                         className="appear-animation"
                                         data-appear-animation="fadeInUpShorter"
@@ -202,7 +202,7 @@ export default ({ servicesEdges }) => (
                             <div className="card border-radius-0 border-0 shadow-none">
                                 <div className="card-body d-flex align-items-center justify-content-between flex-column z-index-1 border-end-0">
                                     <img
-                                        src="images/happy.svg"
+                                        src="/images/happy.svg"
                                         alt="Zadovoljan klijent"
                                         className="appear-animation"
                                         data-appear-animation="fadeInUpShorter"
@@ -233,7 +233,7 @@ export default ({ servicesEdges }) => (
             <section
                 id="usluge"
                 className="our-services d-flex p-relative z-index-1 bg-color-light lazyload"
-                data-bg-src="images/bg6.jpeg"
+                data-bg-src="/images/bg6.jpeg"
             >
                 <div className="col-img-our-services p-absolute overflow-hidden w-50 h-100"></div>
                 <div className="container">
@@ -260,254 +260,8 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="500"
                                 id="accordionServices"
                             >
-                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
-                                    <div className="card-header py-2 bg-color-quaternary">
-                                        <h4 className="card-title m-0">
-                                            <a
-                                                className="accordion-toggle text-color-tertiary font-weight-semibold"
-                                                data-bs-toggle="collapse"
-                                                data-bs-parent="#accordionServices"
-                                                href="#collapse3One"
-                                            >
-                                                Izvedba građevinskih radova
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div
-                                        id="collapse3One"
-                                        className="collapse card-accordion-our-services show"
-                                    >
-                                        <div className="card-body">
-                                            <p className="mb-0">
-                                                Adaptacija kuće, stana, pomoćnih
-                                                objekata, garaža, potkrovlja,
-                                                poslovnog, ugostiteljskog ili
-                                                bilo kojeg prostora s bilo kojom
-                                                namjenom. Vrhunski izvedena
-                                                upravo po vašoj želji ili
-                                                zamisli: atraktivno i
-                                                kvalitetno.
-                                            </p>
-                                            <a
-                                                href="demo-business-consulting-2-services.html"
-                                                className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                            >
-                                                Saznaj više +
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
-                                    <div className="card-header py-2 bg-color-quaternary">
-                                        <h4 className="card-title m-0">
-                                            <a
-                                                className="accordion-toggle text-color-tertiary font-weight-semibold"
-                                                data-bs-toggle="collapse"
-                                                data-bs-parent="#accordionServices"
-                                                href="#collapse3Two"
-                                            >
-                                                Stručni nadzor građenja
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div
-                                        id="collapse3Two"
-                                        className="collapse card-accordion-our-services"
-                                    >
-                                        <div className="card-body">
-                                            <p className="mb-0">
-                                                Obavljamo poslove kompletnog
-                                                stručnog nadzora nad kvalitetom
-                                                izvedbe građevinskih,
-                                                elektroinstalaterskih i
-                                                strojarskih radova u tijeku
-                                                izgradnje temeljem ugovornih
-                                                uvjeta, tehničkih propisa i
-                                                uzanci struke - uz aktivno
-                                                prisustvo na gradilištu.
-                                            </p>
-                                            <a
-                                                href="demo-business-consulting-2-services.html"
-                                                className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                            >
-                                                Saznaj više +
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
-                                    <div className="card-header py-2 bg-color-quaternary">
-                                        <h4 className="card-title m-0">
-                                            <a
-                                                className="accordion-toggle text-color-tertiary font-weight-semibold"
-                                                data-bs-toggle="collapse"
-                                                data-bs-parent="#accordionServices"
-                                                href="#collapse3Three"
-                                            >
-                                                Inženjering
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div
-                                        id="collapse3Three"
-                                        className="collapse card-accordion-our-services"
-                                    >
-                                        <div className="card-body">
-                                            <p className="mb-0">
-                                                Svojim klijentima nudimo
-                                                inženjerske usluge pisanje
-                                                stručnih mišljenja, kontrolu
-                                                troškovnika, izradu ponuda,
-                                                izradu troškovnika za projekte
-                                                sanacija, stručno pisanje izjava
-                                                izvođača o obavljenim radovima i
-                                                uvjetima održavanja građevine,
-                                                kompletiranje dokumentacije za
-                                                tehnički pregled građevine,
-                                                izradu i vođenje građevinske
-                                                knjige
-                                            </p>
-                                            <a
-                                                href="demo-business-consulting-2-services.html"
-                                                className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                            >
-                                                Saznaj više +
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
-                                    <div className="card-header py-2 bg-color-quaternary">
-                                        <h4 className="card-title m-0">
-                                            <a
-                                                className="accordion-toggle text-color-tertiary font-weight-semibold"
-                                                data-bs-toggle="collapse"
-                                                data-bs-parent="#accordionServices"
-                                                href="#collapse3Four"
-                                            >
-                                                Projektiranje
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div
-                                        id="collapse3Four"
-                                        className="collapse card-accordion-our-services"
-                                    >
-                                        <div className="card-body">
-                                            <p className="mb-0">
-                                                Obavljamo kompletnu uslugu
-                                                poslova arhitektonskog
-                                                projektiranja građevina koja se
-                                                sastoji od izrade idejnih,
-                                                glavnih, izvedbenih projekata,
-                                                projekata izvedenog stanja, te
-                                                ishođenje potrebnih dozvola. U
-                                                sklopu izrade projekta
-                                                savjetujemo investitora u
-                                                pogledu odabira tehnički
-                                                optimalnih i ekonomski
-                                                opravdanih tehničkih sustava.
-                                            </p>
-                                            <a
-                                                href="demo-business-consulting-2-services.html"
-                                                className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                            >
-                                                Saznaj više +
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
-                                    <div className="card-header py-2 bg-color-quaternary">
-                                        <h4 className="card-title m-0">
-                                            <a
-                                                className="accordion-toggle text-color-tertiary font-weight-semibold"
-                                                data-bs-toggle="collapse"
-                                                data-bs-parent="#accordionServices"
-                                                href="#collapse3Five"
-                                            >
-                                                Izrada energetskih certifikata
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div
-                                        id="collapse3Five"
-                                        className="collapse card-accordion-our-services"
-                                    >
-                                        <div className="card-body">
-                                            <p className="mb-0">
-                                                Provođenje energetskih pregleda
-                                                i energetsko certificiranje
-                                                zgrada koji se sastoji od
-                                                pregleda dostupne dokumentacije,
-                                                vizualnog pregleda zgrade te
-                                                izrade izvješća prema
-                                                Metodologiji.
-                                            </p>
-                                            <a
-                                                href="demo-business-consulting-2-services.html"
-                                                className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                            >
-                                                Saznaj više +
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className="border-radius mb-1 border-0 card-accordion-our-services-container">
-                                    <div className="card-header py-2 bg-color-quaternary">
-                                        <h4 className="card-title m-0">
-                                            <a
-                                                className="accordion-toggle text-color-tertiary font-weight-semibold"
-                                                data-bs-toggle="collapse"
-                                                data-bs-parent="#accordionServices"
-                                                href="#collapse3Six"
-                                            >
-                                                Ispitivanje zrakopropusnosti
-                                                (Blower Door test)
-                                            </a>
-                                        </h4>
-                                    </div>
-                                    <div
-                                        id="collapse3Six"
-                                        className="collapse card-accordion-our-services"
-                                    >
-                                        <div className="card-body">
-                                            <p className="mb-0">
-                                                Blower Door je metoda
-                                                ispitivanja zrakopropusnosti
-                                                objekta gdje se mogu locirati
-                                                dijelovi gdje Vaš objekt
-                                                nepotrebno gubi energiju. Ovim
-                                                testom lako otkrivamo da li je
-                                                Vaš objekt adekvatno
-                                                “zabrtvljen” i da li je samim
-                                                time energetski učinkovit. U
-                                                kombinaciji sa infracrvenom
-                                                kamerom, možemo detektirati
-                                                mjesta gdje energija odlazi i
-                                                ponuditi Vam razne vrste
-                                                rješenja.
-                                            </p>
-                                            <a
-                                                href="demo-business-consulting-2-services.html"
-                                                className="font-weight-bold text-uppercase text-decoration-none d-block mt-3"
-                                            >
-                                                Saznaj više +
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <ServicesListing services={servicesEdges} />
                             </div>
-
-                            <a
-                                href="demo-business-consulting-2-services.html"
-                                className="btn btn-primary custom-btn text-center text-uppercase text-decoration-none border-0 py-0 px-5 font-weight-semibold mt-4 appear-animation"
-                                data-appear-animation="fadeInRightShorter"
-                                data-appear-animation-delay="600"
-                            >
-                                SAZNAJTE VIŠE
-                            </a>
                         </div>
                     </div>
                 </div>
@@ -584,7 +338,7 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <img
-                                    src="images/img16.jpg"
+                                    src="/images/img16.jpg"
                                     className="img-fluid border-radius-0"
                                     alt=""
                                 />
@@ -595,7 +349,7 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <img
-                                    src="images/img2.jpeg"
+                                    src="/images/img2.jpeg"
                                     className="img-fluid border-radius-0"
                                     alt=""
                                 />
@@ -606,7 +360,7 @@ export default ({ servicesEdges }) => (
                                 data-appear-animation-delay="300"
                             >
                                 <img
-                                    src="images/img15.jpg"
+                                    src="/images/img15.jpg"
                                     className="img-fluid border-radius-0"
                                     alt=""
                                 />
@@ -618,7 +372,10 @@ export default ({ servicesEdges }) => (
 
             <section className="real-word-stories bg-color-quaternary overflow-hidden p-relative pb-4">
                 <div className="container py-xl-5">
-                    <div className="row justify-content-between align-items-center pt-5 py-xl-5 mt-3">
+                    <div
+                        id="mobile-reasons"
+                        className="row justify-content-between align-items-center pt-5 py-xl-5 mt-3"
+                    >
                         <div className="col-xl-6 mb-5 pb-5 mb-xl-0 pb-xl-0">
                             <div
                                 className="appear-animation"
@@ -633,7 +390,7 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src="images/case1.svg"
+                                                    src="/images/case1.svg"
                                                     alt="Prihvacamo nove ideje"
                                                 />
                                             </div>
@@ -657,7 +414,7 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src="images/case2.svg"
+                                                    src="/images/case2.svg"
                                                     alt="Prihvacamo nove ideje"
                                                 />
                                             </div>
@@ -681,7 +438,7 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src="images/case3.svg"
+                                                    src="/images/case3.svg"
                                                     alt="Prihvacamo nove ideje"
                                                 />
                                             </div>
@@ -705,7 +462,7 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src="images/case4.svg"
+                                                    src="/images/case4.svg"
                                                     alt="Prihvacamo nove ideje"
                                                 />
                                             </div>
@@ -731,7 +488,7 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src="images/case5.svg"
+                                                    src="/images/case5.svg"
                                                     alt="Prihvacamo nove ideje"
                                                 />
                                             </div>
@@ -756,7 +513,7 @@ export default ({ servicesEdges }) => (
                                         <div className="testimonial custom-testimonial testimonial-style-2 mb-0">
                                             <div className="d-none d-sm-flex align-items-center justify-content-center custom-testimonial-right bg-color-light p-absolute z-index-1">
                                                 <img
-                                                    src="images/case6.svg"
+                                                    src="/images/case6.svg"
                                                     alt="Prihvacamo nove ideje"
                                                 />
                                             </div>
@@ -836,7 +593,7 @@ export default ({ servicesEdges }) => (
                                 Imate li pitanja?
                             </p>
                             <h2
-                                className="text-color-light font-weight-bold text-capitalize mb-1 letter-spacing-08 font-size-32 appear-animation"
+                                className="text-color-light font-weight-bold mb-1 letter-spacing-08 font-size-32 appear-animation"
                                 data-appear-animation="fadeInRightShorter"
                                 data-appear-animation-delay="200"
                             >
@@ -852,28 +609,52 @@ export default ({ servicesEdges }) => (
                             </p>
                         </div>
                         <div className="col-xl-6 d-flex align-items-start align-items-sm-center justify-content-start justify-content-xl-end mt-4 mt-xl-0 flex-column flex-sm-row">
-                            <span
-                                className="are-you-looking-for-phone py-2 d-flex align-items-center text-color-light font-weight-semibold text-uppercase text-4 mb-4 mb-md-0 appear-animation"
-                                data-appear-animation="fadeInLeftShorter"
-                                data-appear-animation-delay="500"
-                            >
-                                <span>
-                                    <img
-                                        width="18"
-                                        height="25"
-                                        src="images/phone.svg"
-                                        alt="Phone"
-                                    />
-                                </span>
-                                <a
-                                    className="text-color-light text-decoration-none"
-                                    href="tel:123-456-7890"
+                            <div>
+                                <span
+                                    className="are-you-looking-for-phone py-2 d-flex align-items-center text-color-light font-weight-semibold text-uppercase text-4 mb-4 mb-md-0 appear-animation"
+                                    data-appear-animation="fadeInLeftShorter"
+                                    data-appear-animation-delay="500"
                                 >
-                                    +385 (98) 329 525
-                                </a>
-                            </span>
+                                    <span>
+                                        <img
+                                            width="18"
+                                            height="25"
+                                            src="/images/phone.svg"
+                                            alt="Phone"
+                                        />
+                                    </span>
+                                    <a
+                                        className="text-color-light text-decoration-none"
+                                        href={`tel:${config.userMobileNumber}`}
+                                    >
+                                        {config.userMobileNumber}
+                                    </a>
+                                </span>
+                                <span
+                                    className="are-you-looking-for-phone py-2 d-flex align-items-center text-color-light font-weight-semibold text-uppercase text-4 mb-4 mb-md-0 appear-animation"
+                                    data-appear-animation="fadeInLeftShorter"
+                                    data-appear-animation-delay="500"
+                                >
+                                    <span>
+                                        <img
+                                            width="25"
+                                            height="18"
+                                            src="/images/mail.svg"
+                                            alt="Mail"
+                                        />
+                                    </span>
+                                    <a
+                                        className="text-color-light text-decoration-none"
+                                        href={`mailto:${config.userMail}`}
+                                        style={{ textTransform: "lowercase" }}
+                                    >
+                                        {config.userMail}
+                                    </a>
+                                </span>
+                            </div>
+
                             <a
-                                href="demo-business-consulting-2-contact-us.html"
+                                href="#kontakt"
                                 className="btn btn-primary custom-btn text-center text-uppercase text-decoration-none border-0 py-0 px-5 font-weight-semibold appear-animation"
                                 data-appear-animation="fadeInLeftShorter"
                                 data-appear-animation-delay="600"
@@ -885,118 +666,8 @@ export default ({ servicesEdges }) => (
                 </div>
             </section>
 
-            <section id="kontakt" className="our-blog">
-                <div className="container py-5" style={{ width: "45%" }}>
-                    <div className="row">
-                        <div className="col">
-                            <p
-                                className="text-uppercase font-weight-semibold mb-1 text-color-primary appear-animation"
-                                data-appear-animation="fadeInRightShorter"
-                                data-appear-animation-delay="100"
-                            >
-                                <span className="line-pre-title bg-color-primary"></span>
-                                Kontaktirajte nas
-                            </p>
-                            <h2
-                                className="text-color-secondary font-weight-bold text-capitalize mb-2 custom-letter-spacing-2 custom-text-1 appear-animation"
-                                data-appear-animation="fadeInRightShorter"
-                                data-appear-animation-delay="200"
-                            >
-                                Pošaljite nam upit
-                            </h2>
-                            <p
-                                className="mb-4 appear-animation"
-                                data-appear-animation="fadeInRightShorter"
-                                data-appear-animation-delay="300"
-                            >
-                                Za sva pitanja obratite nam se putem kontakt
-                                obrasca ili nas nazovite.
-                            </p>
-
-                            <form
-                                className="contact-form custom-form-style-1 appear-animation"
-                                data-appear-animation="fadeIn"
-                                data-appear-animation-delay="100"
-                                action="php/contact-form.php"
-                                method="POST"
-                            >
-                                <div className="contact-form-success alert alert-success d-none mt-4">
-                                    <strong>Uspješno!</strong> Vaša poruka je
-                                    poslana..
-                                </div>
-
-                                <div className="contact-form-error alert alert-danger d-none mt-4">
-                                    <strong>Ups!</strong> Došlo je do problema.
-                                    <span className="mail-error-message text-1 d-block"></span>
-                                </div>
-                                <div className="row">
-                                    <div className="form-group col-lg-6">
-                                        <input
-                                            type="text"
-                                            placeholder="Ime i Prezime"
-                                            value=""
-                                            data-msg-required="Molimo upišite svoje ime."
-                                            maxlength="100"
-                                            className="form-control"
-                                            name="name"
-                                            required
-                                        />
-                                    </div>
-                                    <div className="form-group col-lg-6">
-                                        <input
-                                            type="email"
-                                            placeholder="E-mail"
-                                            value=""
-                                            data-msg-required="Molimo upišite svoju email adresu."
-                                            data-msg-email="Molimo unesite ispravnu email adresu."
-                                            maxlength="100"
-                                            className="form-control"
-                                            name="email"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="form-group col">
-                                        <input
-                                            placeholder="Naslov"
-                                            type="text"
-                                            value=""
-                                            data-msg-required="Molimo upišite naslov."
-                                            maxlength="100"
-                                            className="form-control"
-                                            name="subject"
-                                            required
-                                        />
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="form-group col">
-                                        <textarea
-                                            placeholder="Vaša poruka..."
-                                            maxlength="5000"
-                                            data-msg-required="Molimo upišite Vašu poruku."
-                                            rows="10"
-                                            className="form-control"
-                                            name="message"
-                                            required
-                                        ></textarea>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="form-group col">
-                                        <input
-                                            type="submit"
-                                            value="Pošalji"
-                                            className="btn btn-primary custom-btn text-center text-uppercase text-decoration-none border-0 py-0 px-5 font-weight-semibold"
-                                            data-loading-text="Čekanje..."
-                                        />
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
+            <section className="our-blog">
+                <Contact />
             </section>
         </div>
     </main>

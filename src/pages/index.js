@@ -12,7 +12,7 @@ export default ({
     },
 }) => (
     <Layout>
-        <SEO servicesEdges={edges} />
+        <SEO />
         <Home servicesEdges={edges} />
     </Layout>
 );
@@ -20,7 +20,10 @@ export default ({
 /* eslint no-undef: "off"*/
 export const pageQuery = graphql`
     query {
-        allMarkdownRemark {
+        allMarkdownRemark(
+            limit: 2000
+            sort: { fields: [frontmatter___orderId], order: ASC }
+        ) {
             edges {
                 node {
                     fields {

@@ -4,15 +4,15 @@ const pathPrefix = config.pathPrefix === "/" ? "" : config.pathPrefix;
 module.exports = {
     pathPrefix: config.pathPrefix,
     siteMetadata: {
-        title: `Barcode`,
-        description: `Firma za ivedbu gradevinskih radova`,
+        title: config.siteTitle,
+        description: config.description,
         siteUrl: config.siteUrl + pathPrefix,
         rssMetadata: {
             site_url: config.siteUrl + pathPrefix,
             feed_url: config.siteUrl + pathPrefix + config.siteRss,
             title: config.siteTitle,
             description: config.siteDescription,
-            image_url: `${config.siteUrl + pathPrefix}/logos/logo-512.png`, // todo: path
+            image_url: `${config.siteUrl + pathPrefix}/static/images/icon.png`, // todo: image path
             author: config.userName,
             copyright: config.copyright,
         },
@@ -87,16 +87,16 @@ module.exports = {
                 path: `${__dirname}${config.servicesDir}`,
             },
         },
+        // {
+        //     resolve: "gatsby-source-filesystem",
+        //     options: {
+        //         name: "images",
+        //         path: `${__dirname}/src/images/`,
+        //     },
+        //     __key: "images",
+        // },
         {
-            resolve: "gatsby-source-filesystem",
-            options: {
-                name: "images",
-                path: `${__dirname}/src/images/`,
-            },
-            __key: "images",
-        },
-        {
-            resolve: "gatsby-transformer-remark", // Markdown
+            resolve: "gatsby-transformer-remark",
             options: {
                 plugins: [
                     {
@@ -154,7 +154,7 @@ module.exports = {
                 background_color: `#ffffff`,
                 theme_color: `#ffffff`,
                 display: `standalone`,
-                icon: `src/images/icon.png`,
+                icon: `${config.siteUrl + pathPrefix}/static/images/icon.png`,
             },
         },
         // "gatsby-plugin-offline",

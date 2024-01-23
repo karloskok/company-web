@@ -1,4 +1,5 @@
 ---
+orderId: 1
 title: "Izvedba građevinskih radova"
 description: "Adaptacija kuće, stana, pomoćnih
     objekata, garaža, potkrovlja,
@@ -8,19 +9,34 @@ description: "Adaptacija kuće, stana, pomoćnih
     upravo po vašoj želji ili
     zamisli: atraktivno i
     kvalitetno."
-heading: "Izvedba građevinskih radova"
-desc: "meta desc"
-cover: "how-to-check-for-undefined-variables-cover.svg"
+cover: "/images/gradevinski-radovi.jpeg"
+date: "22 Jan 2024 07:00 UTC"
+openOnStart: true
+
+metaDescription: "Izvedba građevinskih radova"
 facebook: "how-to-check-for-undefined-variables-facebook.png"
 twitter: "how-to-check-for-undefined-variables-twitter.png"
-date: "24 July 2018 11:00 UTC"
-updated: "28 July 2018 09:10 UTC"
-author: "Ben Rogerson"
-openOnStart: true
 ---
 
-<!-- <div class="intro">
-Everyone working with Twig templates has experienced an undefined error
-</div> -->
-
-Izvedba građevinskih radova
+<p
+   class="text-4 line-height-9 appear-animation"
+   data-appear-animation="fadeIn"
+   data-appear-animation-delay="100"
+   >
+   Naša tvrtka temelji se na profesionalnosti i dugogodišnjem
+   iskustvu u građenju stambenih i poslovnih objekata, uređenju
+   interijera, izvođenju adaptacija, rekonstrukcija, sanacija.
+</p>
+<p
+   class="m-0 p-0 appear-animation"
+   data-appear-animation="fadeIn"
+   data-appear-animation-delay="300"
+   >
+   U sklopu izvođenja nudimo i izradu tehničkih rješenja i
+   troškovnika kao i cjelokupno rješenje građevinskog zahvata, od
+   idejnog rješenja, izrade projekata, ishođenja potrebnih dozvola
+   i suglasnosti do samog izvođenja građevinskih radova. Izvođenje
+   uključuje kpl građevinske, obrtničke i instalaterske radove.
+   Svaki građevinski zahvat ovisno o svojoj namjeni, mora biti
+   izveden na način da ispunjava temeljne zahtjeve za građevinu.
+</p>

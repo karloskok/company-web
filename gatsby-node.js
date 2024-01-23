@@ -8,7 +8,6 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     let slug;
 
     if (node.internal.type === `MarkdownRemark`) {
-        debugger;
         // Build RSS feed
         const value = createFilePath({ node, getNode });
         createNodeField({
@@ -90,12 +89,3 @@ exports.createPages = ({ graphql, actions }) => {
         );
     });
 };
-
-// exports.onCreateWebpackConfig = ({ actions }) => {
-//     const { setWebpackConfig } = actions;
-//     setWebpackConfig({
-//         externals: {
-//             jquery: "jQuery", // important: 'Q' capitalized
-//         },
-//     });
-// };

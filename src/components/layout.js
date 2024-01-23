@@ -6,7 +6,7 @@ import { Helmet } from "react-helmet";
 
 export default ({ children, className, hideHeader }) => (
     <div className="body">
-        {!hideHeader && <Header />}
+        <Header />
         <div className={className}>{children}</div>
         <Footer />
     </div>
