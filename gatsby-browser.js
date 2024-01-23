@@ -7,7 +7,7 @@ const addScript = (url) => {
 
 exports.onInitialClientRender = () => {
     addScript("/js/theme.min.js");
-    addScript("/js/view.min.contact.js");
+    addScript("/js/view.contact.min.js");
     addScript("/js/site_main.min.js");
 
     addScript("/js/theme.init.min.js");
