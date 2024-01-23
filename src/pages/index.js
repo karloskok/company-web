@@ -11,7 +11,7 @@ export default ({
         allMarkdownRemark: { edges },
     },
 }) => (
-    <Layout>
+    <Layout isHomePage={true}>
         <SEO />
         <Home servicesEdges={edges} />
     </Layout>

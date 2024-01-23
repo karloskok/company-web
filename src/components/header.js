@@ -1,8 +1,7 @@
 import React from "react";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-export default () => {
-    const isHomePage = window.location.pathname === "/";
+export default ({ isHomePage }) => {
     return (
         <header
             id="header"
